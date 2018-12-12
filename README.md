@@ -6,6 +6,7 @@ This project consists of C and Javascript questions. Since Javascript is a C-lik
 |C_questions|C questions  |
 |/C_questions/arithmetic|Arithmetic exercises|
 |/C_questions/conditionals|Contiditonal Exercies|
+|/C_questions/loops|Loop Exercises|
 
 ## Licence
 MIT
