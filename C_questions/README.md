@@ -26,3 +26,6 @@
 |BCD|415.441|
 |ASCII| 65 and 84 and 65 = "ATA"|
 
+## Source
+
+- Data Structures and Algorithms << Rifat Çölkesen Ph.D
