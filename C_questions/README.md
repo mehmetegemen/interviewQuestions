@@ -26,6 +26,16 @@
 |BCD|415.441|
 |ASCII| 65 and 84 and 65 = "ATA"|
 
+#### What is the range of upper case letters and lower case letter in ASCII Table ?
+|Case|Range|
+|--|--|
+|Upper Case|65-90|
+|Lower Case|97-122|
+
+So lower case letters' values are bigger than upper case letters' values.
+
+
+
 ## Source
 
 - Data Structures and Algorithms << Rifat Çölkesen Ph.D
