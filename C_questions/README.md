@@ -68,6 +68,10 @@ Function returns for one time, so it is one operation.
 |10|1|
 |Total|4n|
 
+#### Are recursive functions memory heavy?
+
+Yes. Recursive functions may have nested return calls and this increases stack's usage. Also recursive functions easily add up and may have huge memory needs.
+
 ## Source
 
 - Data Structures and Algorithms << Rifat Çölkesen Ph.D
