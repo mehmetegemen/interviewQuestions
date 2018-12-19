@@ -72,6 +72,21 @@ Function returns for one time, so it is one operation.
 
 Yes. Recursive functions may have nested return calls and this increases stack's usage. Also recursive functions easily add up and may have huge memory needs.
 
+#### Find the memory complexity of the below program
+
+```
+unsigned int fibonnaci(unsigned int n) {
+    unsigned int fib;
+    if( n > 1 ) {
+        fib = fibonacci(n-1)+fibonacci(n-2);
+        return fib;
+    } else if ( n==1 ) return 1;
+    else return 0;
+}
+```
+
+Program has only unsigned ints which is 4 bytes each. One as an argument and one as a local variable. So function allocates size of two unsigned ints per call. This means 2 + 2 every recurive call since there are two function calls assigned to `fib` variable. They iterate n times. Summing up, 2n + 2n times = 4n.
+
 ## Source
 
 - Data Structures and Algorithms << Rifat Çölkesen Ph.D
