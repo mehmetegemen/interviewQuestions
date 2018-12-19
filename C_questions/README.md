@@ -34,7 +34,39 @@
 
 So lower case letters' values are bigger than upper case letters' values.
 
+#### Find the running time of the code below
 
+```
+1 float findLeast(float A[]){
+2     float least;
+3     int k;
+4 
+5     least = A[0];
+6 
+7     for(k=1; k<n; k++)
+8         if(A[k]<least)
+9             least = A[k];
+10    return least
+11 }
+```
+There is one assignment operation on the line 5, which counts as 1.
+
+There is a loop on the line 7. k=1 is one operation, k<n is n-1 and k++ as a post increment is n operations. Total it is 2n operations.
+
+On the line 8 condition will be checked n-1 time.
+
+Assuming the worst case scenerio - where every condition meets the expectation - line 9 is n-1 operations.
+
+Function returns for one time, so it is one operation.
+
+|Lines|Operations|
+|--|--|
+|5|1|
+|7|2n|
+|8|n-1|
+|9|n-1|
+|10|1|
+|Total|4n|
 
 ## Source
 
