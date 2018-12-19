@@ -87,6 +87,10 @@ unsigned int fibonnaci(unsigned int n) {
 
 Program has only unsigned ints which is 4 bytes each. One as an argument and one as a local variable. So function allocates size of two unsigned ints per call. This means 2 + 2 every recurive call since there are two function calls assigned to `fib` variable. They iterate n times. Summing up, 2n + 2n times = 4n.
 
+#### Give the name of six sorting algorithms
+
+Merge sort, Quick sort, Bubble sort, insertion sort, selection sort, heap sort
+
 ## Source
 
 - Data Structures and Algorithms << Rifat Çölkesen Ph.D
